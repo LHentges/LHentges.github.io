@@ -1,2 +1,2 @@
 # LHentges.github.io
-Adventures in machine learning
+Machine learning for the modern lady and gentleman
