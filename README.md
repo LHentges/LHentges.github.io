@@ -7,11 +7,12 @@ I like to take a "middle-out" approach to concepts. That is I start with a topic
 Practicalities: I use python 3.5, keras with tensorflow backend for supervised learning, and scikitlearn for unsupervised learning (to start) - I'll also be building some tools from scratch!
 
 #### Topics
+<ul>
+  <li>Machine learning v. deep learning v. artificial intelligence</li>
+  <li>Image classification</li>
+  <li>Convolution</li>
+  <li>TensorFlow</li>
+  <li>Linear algebra review</li>
+</ul>
 
-Machine learning v. deep learning v. artificial intelligence
-Image classification
-Convolution
-TensorFlow
-
-Linear algebra review
 <a href=#top>top</a>
