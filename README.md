@@ -5,3 +5,5 @@ It's useful for me to maintain a space for my machine learning documentation, an
 I like to take a "middle-out" approach to concepts. That is I start with a topic of interest (e.g. deep learning and convolution), explore the fundamentals and how it's used, <em>then</em> expand outward. I'll delve deeper into why a system works, as well as exploring new and interesting ways the concept is being applied. While it may seem more natural to begin with first principles (start from the beginning right?), in practice I find it's difficult to stay motivated learning rudimentary concepts with only a dim hope of it becoming useful in the future.
 
 Practicalities: I use python 3.5, keras with tensorflow backend for supervised learning, and scikitlearn for unsupervised learning (to start) - I'll also be building some tools from scratch!
+
+<a href=#top>top</a>
