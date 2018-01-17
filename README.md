@@ -9,5 +9,9 @@ Practicalities: I use python 3.5, keras with tensorflow backend for supervised l
 #### Topics
 
 Machine learning v. deep learning v. artificial intelligence
+Image classification
+Convolution
+TensorFlow
 
+Linear algebra review
 <a href=#top>top</a>
