@@ -7,18 +7,18 @@
    A very common use for PCA is dimensionality reduction - particularly if a dataset contains many features 
    (e.g. a row in a dataset has many columns of variables). This works by linearly transforming the features such that 
    <a href = "stats.html" target = "_self">covariance</a> is maximized.
- <\p> 
- <p>
-    It is also possible to use PCA for clustering purposes while mantaining the same number of dimensions (usually 
-    dimensionality reduction is also done in these cases; it is not possible to linearly transform to a larger number of 
-    dimensions). The most simple scenerio, and also the easiest way to picture what is happening, is to consider a 2-D scatter 
-    plot which gets linearly transformed (a very good video resource explaining how linear transformation can be thought of as 
-    a change in the organization of space <a href = "https://youtu.be/kYB8IZa5AuE" target = "_self">covariance</a>). The data
-    could be represented as a table of x and y coordinates, or as a matrix. Now imagine each "x" value is multiplied by some
-    number and each "y" value is multiplied by another number, you can see that this is an isomorphism - that is the same data 
-    are being represented in a different way (you can imagine it would be possible to get the original x and y values back if
-    you knew the multipliers, though this is not possible when the dimension has been reduced).
+</p>
+<p>
+   It is also possible to use PCA for clustering purposes while mantaining the same number of dimensions (usually 
+   dimensionality reduction is also done in these cases; it is not possible to linearly transform to a larger number of 
+   dimensions). The most simple scenerio, and also the easiest way to picture what is happening, is to consider a 2-D scatter 
+   plot which gets linearly transformed (a very good video resource explaining how linear transformation can be thought of as 
+   a change in the organization of space <a href = "https://youtu.be/kYB8IZa5AuE" target = "_self">covariance</a>). The data
+   could be represented as a table of x and y coordinates, or as a matrix. Now imagine each "x" value is multiplied by some
+   number and each "y" value is multiplied by another number, you can see that this is an isomorphism - that is the same data 
+   are being represented in a different way (you can imagine it would be possible to get the original x and y values back if
+   you knew the multipliers, though this is not possible when the dimension has been reduced).
 </p>
 <p>
    What values should you choose as the multipliers to shift your dataset?
-<\p>
+</p>
