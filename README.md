@@ -13,7 +13,7 @@ Practicalities: I use python 3.5, keras with tensorflow backend for supervised l
   <li>Convolution</li>
   <li>TensorFlow</li>
   <li>Linear algebra review</li>
-  <li>Probability and statistics review <a href = "stats.html" target = "_self">covariance</a></li>
+  <li>Probability and statistics review <a href = "https://lhentges.github.io/" target = "_self">covariance</a></li>
 </ul>
 
 #### Personal
