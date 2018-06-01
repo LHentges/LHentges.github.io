@@ -6,6 +6,8 @@ I like to take a "middle-out" approach to concepts. That is I start with a topic
 
 Practicalities: I use python 3.5, keras with tensorflow backend for supervised learning, and scikitlearn for unsupervised learning (to start) - I'll also be building some tools from scratch!
 
+## <a href = "https://lhentges.github.io/" target = "_self">lhentges.github.io/</a>
+
 #### Topics
 <ul>
   <li>Machine learning v. deep learning v. artificial intelligence</li>
@@ -13,7 +15,7 @@ Practicalities: I use python 3.5, keras with tensorflow backend for supervised l
   <li>Convolution</li>
   <li>TensorFlow</li>
   <li>Linear algebra review</li>
-  <li><a href = "https://lhentges.github.io/stats.html" target = "_self">Probability and statistics review </a></li>
+  <li><a href = "https://lhentges.github.io/stats.html" target = "_self">Probability and statistics review</a></li>
 </ul>
 
 #### Personal
