@@ -4,9 +4,10 @@
 <p>
    PCA is a unsupervised machine learning technique used for clustering and dimensionality reduction. To fully understand it
    you need to know a bit of statistics and linear algebra. If you're working in a field where PCA is a well established 
-   technique and you just want code to use on your samples you can find that
+   technique and you just want code to use on your samples, you can find that
    <a href = "https://github.com/LHentges/machineLearningExamples/blob/master/PCA_sklearn.ipynb" target = "_self">here</a> - 
-   this uses the package scikit-learn and is probably the best way to implement 
+   this uses the package scikit-learn and is probably the best way to actually apply PCA to your data, just not the easiest
+   way to understand what is going on.
 </p>
 <p>
    A very common use for PCA is dimensionality reduction - particularly if a dataset contains many features 
@@ -14,20 +15,21 @@
    <a href = "stats.html" target = "_self">covariance</a> is maximized.
 </p>
 <p>
-   It is also possible to use PCA for clustering purposes while mantaining the same number of dimensions (though less common, usually 
-   dimensionality reduction is also done when clustering; side note - it is not possible to linearly transform to a larger number of 
-   dimensions). The most simple scenerio, and also the easiest way to picture what is happening, is to consider a 2-D scatter 
-   plot which gets linearly transformed (a very good <a href = "https://youtu.be/kYB8IZa5AuE" target = "_self">video resource</a> explaining how linear transformation can be thought of as 
-   a change in the organization of space). The data
+   It is also possible to use PCA for clustering purposes while mantaining the same number of dimensions (though less common, 
+   usually dimensionality reduction is also done when clustering; side note - it is not possible to linearly transform to a 
+   larger number of dimensions). The most simple scenerio, and also the easiest way to picture what is happening, is to 
+   consider a 2-D scatter plot which gets linearly transformed 
+   (a very good <a href = "https://youtu.be/kYB8IZa5AuE" target = "_self">video resource</a> explaining how linear 
+   transformation can be thought of as a change in the organization of space). The data
    could be represented as a table of x and y coordinates, or as a matrix. Now imagine each "x" value is multiplied by some
    number and each "y" value is multiplied by another number, you can see that this is an isomorphism - that is the same data 
-   are being represented in a different way (you can imagine it would be possible to get the original x and y values back if
+   are represented in a different way (you can imagine it would be possible to get the original x and y values back if
    you knew the multipliers, though this is not possible when the dimension has been reduced).
 </p>
 <p>
    What values should you choose as the multipliers to shift your dataset? This is where the
-   <a href = "stats.html" target = "_self">covariance</a> comes into play. Briefly, covariance describes the how variables
-   change with respect to one another. An nxn square matrix is constructed by finding the pairwise covariance between the data
+   <a href = "stats.html" target = "_self">covariance</a> comes into play [briefly, covariance describes the how variables
+   change with respect to one another]. An nxn square matrix is constructed by finding the pairwise covariance between the data
    points (a bit about the matrix: n is the number of "points" on our plot, and if i represents rows and j represents columns
    then the ith, jth element of the matrix would be the covariance between the ith and the jth plot points).
 </p>
