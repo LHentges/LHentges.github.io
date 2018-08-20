@@ -11,7 +11,7 @@ Practicalities: I use python 3.5, keras with tensorflow backend for supervised l
 #### Topics
 <ul>
   <li>Machine learning v. deep learning v. artificial intelligence</li>
-  <li><a href = "https://lhentges.github.io/supervised.html" target = "_self">Supervisd</a> and <a href = "https://lhentges.github.io/unsupervised.html" target = "_self">Unsupervised</a></li>
+  <li><a href = "https://lhentges.github.io/supervised.html" target = "_self">Supervised</a> and <a href = "https://lhentges.github.io/unsupervised.html" target = "_self">Unsupervised</a> tools</li>
   <li>Image classification</li>
   <li>Convolution</li>
   <li>TensorFlow</li>
