@@ -21,7 +21,7 @@ Practicalities: I use python 3.5, keras with tensorflow backend for supervised l
 
 #### Personal
 
-I'm interested in the application of ai in genomics. Currently the focus of this space is on machine learning, but as it develops I hope to include more of this.
+I'm interested in the application of ai in genomics. Currently the focus of this space is on machine learning generally, but as it develops I hope to include more of this.
 
 <a href=#top>top</a>
 
